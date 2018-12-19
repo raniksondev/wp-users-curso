@@ -7,28 +7,21 @@
 		</section>
 	</section>
 	<section class="col-form">
-		<section class="header-actions">
-			<a href="<?php wp_go('criar-conta'); ?>" class="btn-md btn-line">Criar conta</a>
-		</section>
 		<section class="form-box shadow-md rounded-md">
 			<div class="header">
-				<h2>Bem vindo.</h2>
-				<p>Acesse ou <a href="<?php wp_go('criar-conta'); ?>">crie uma conta</a>.</p>
+				<h2>Lembrar Senha</h2>
+				<p>Informe o seu e-mail cadastrado.</p>
 			</div>
 			<form>
 				<label>
-					<span>Nome de usuário:</span>
-					<input type="text">
-				</label>
-				<label>
-					<span>Senha:</span>
+					<span>Email:</span>
 					<input type="text">
 				</label>
 				<div class="mt-15">
-					<a href="#" class="btn-lg btn-full btn-s">Entrar</a>
+					<a href="#" class="btn-lg btn-full btn-s">Lembrar</a>
 				</div>
 				<div class="mt-30">
-					<a href="<?php wp_go('lembrar-senha'); ?>">Esqueceu sua senha?</a>
+					<a href="<?php wp_go('acessar-minha-conta'); ?>">&lsaquo; Acessar minha conta</a>
 				</div>
 			</form>
 		</section>

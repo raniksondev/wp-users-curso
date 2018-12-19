@@ -7,9 +7,9 @@
 		"uuidString": "D49F0915-BA61-4E15-915F-95D3BB02B931"
 		}
 	],
-"creatorBuild": "28901",
+"creatorBuild": "28841",
 "files": {
-	"/_styl/_login/login.styl": {
+	"/_styl/_pages/login.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -17,7 +17,33 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/_login/login.css",
+		"oAP": "/_styl/_pages/login.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/_styl/_pages/welcome.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_pages/welcome.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/_styl/_ui/buttons.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_ui/buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
@@ -35,6 +61,19 @@
 		"oS": 0,
 		"rrU": 0
 		},
+	"/_styl/_ui/steps.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_ui/steps.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
 	"/_styl/base.styl": {
 		"aP": 0,
 		"bl": 0,
@@ -44,6 +83,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/_styl/base.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/_styl/colors.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/colors.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
@@ -108,9 +160,9 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/Applications/MAMP/htdocs/wp-users/wp-content/themes/wp-users-theme/style.css",
+		"oAP": "/Applications/MAMP/htdocs/curso-wp/wp-content/themes/wp-users-theme/style.css",
 		"oF": 6,
-		"oS": 0,
+		"oS": 1,
 		"rrU": 0
 		}
 	},
