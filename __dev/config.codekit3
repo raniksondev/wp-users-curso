@@ -7,8 +7,21 @@
 		"uuidString": "D49F0915-BA61-4E15-915F-95D3BB02B931"
 		}
 	],
-"creatorBuild": "28841",
+"creatorBuild": "28901",
 "files": {
+	"/_styl/_pages/app.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_pages/app.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
 	"/_styl/_pages/login.styl": {
 		"aP": 0,
 		"bl": 0,
@@ -70,6 +83,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/_styl/_ui/steps.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/_styl/_ui/user-menu.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_ui/user-menu.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
@@ -160,9 +186,9 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/Applications/MAMP/htdocs/curso-wp/wp-content/themes/wp-users-theme/style.css",
+		"oAP": "/Applications/MAMP/htdocs/wp-users/wp-content/themes/wp-users-theme/style.css",
 		"oF": 6,
-		"oS": 1,
+		"oS": 0,
 		"rrU": 0
 		}
 	},
