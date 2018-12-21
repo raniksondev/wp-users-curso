@@ -61,6 +61,32 @@
 		"oS": 0,
 		"rrU": 0
 		},
+	"/_styl/_ui/checkboxs.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_ui/checkboxs.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/_styl/_ui/config-block.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_ui/config-block.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
 	"/_styl/_ui/form.styl": {
 		"aP": 0,
 		"bl": 0,
@@ -83,6 +109,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/_styl/_ui/steps.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/_styl/_ui/table.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_ui/table.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0

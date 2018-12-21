@@ -8,7 +8,7 @@
 			<p>Antes de continuar configure seu ambiente de trabalho.</p>
 		</section>
 		<section class="text-center mt-30">
-			<a href="#" class="btn-md btn-p">Configurações</a>
+			<a href="<?php wp_go('minhas-configuracoes') ?>" class="btn-md btn-p">Configurações</a>
 		</section>
 	</section>
 </section>

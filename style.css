@@ -439,6 +439,9 @@ button {
 .w-600 {
   width: 600px;
 }
+.text-s {
+  font-weight: 500;
+}
 .btn-lg {
   padding: 15px 15px;
   display: inline-block;
@@ -489,6 +492,87 @@ button {
 }
 .btn-line {
   border: 1px #dcdfec solid;
+}
+.tags {
+  display: flex;
+}
+.check-tag input {
+  display: none;
+}
+.check-tag label {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  padding: 0 20px;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  border: 2px #dcdfec solid;
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 5px;
+  color: #b4b7c4;
+}
+.check-tag input:checked + label {
+  background: #027ffa;
+  border: 2px #007af5 solid;
+  color: #fff;
+}
+.check-switch {
+  width: 72px;
+  height: 36px;
+}
+.check-switch input {
+  display: none;
+}
+.check-switch label {
+  position: relative;
+  height: 36px;
+  width: 65px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  border: 1px #dcdfec solid;
+  background: #f0f3ff;
+  -o-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.check-switch label:after {
+  content: "";
+  width: 26px;
+  height: 26px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  background: #fff;
+  position: absolute;
+  border: 1px #fff solid;
+  top: 4px;
+  left: 6px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(161,165,188,0.5);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(161,165,188,0.5);
+  box-shadow: 0px 0px 10px 0px rgba(161,165,188,0.5);
+  -o-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+.check-switch input:checked + label {
+  background: #2ecc71;
+  border: 1px #29c76c solid;
+}
+.check-switch input:checked + label:after {
+  left: 32px;
+}
+.config-block {
+  margin-bottom: 30px;
+}
+.config-block h3 {
+  color: #027ffa;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
 }
 label {
   display: block;
@@ -575,6 +659,24 @@ label .combobox:after {
 }
 .steps span.active {
   background: #2ecc71;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  padding: 5px 0;
+}
+.table-border {
+  border: 1px #dcdfec solid;
+}
+.table-border th,
+.table-border td {
+  border: 1px #dcdfec solid;
+  padding: 10px;
+}
+.table-text-sm th,
+.table-text-sm td {
+  font-size: 12px;
 }
 .user-menu {
   position: relative;
@@ -663,6 +765,12 @@ border-radius
   align-items: center;
   justify-content: center;
   padding: 20px;
+}
+.app > .body .content {
+  margin: auto auto;
+}
+.app > .body .content > .header {
+  margin-bottom: 30px;
 }
 .app > .body .content > .header h1 {
   font-weight: 500;
