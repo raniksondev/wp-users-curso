@@ -1,13 +1,8 @@
 <?php get_header(); ?>
 <section class="login-page">
-	<section class="col-text">
-		<section class="text">
-			<h1>Wp<strong>Tasks</strong></h1>
-			<p>Gerencie as tarefas da sua equipe de desenvolvimento.</p>
-		</section>
-	</section>
+	<?php get_template_part('_inc/login-col-text'); ?>
 	<section class="col-form">
-		<section class="form-box shadow-md rounded-md">
+		<section class="form-box rounded-md">
 			<div class="header">
 				<h2 class="mb-5">Minha Foto</h2>
 				<p>Insira uma foto do seu rosto.</p>

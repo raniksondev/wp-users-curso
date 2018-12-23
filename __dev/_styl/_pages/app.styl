@@ -8,22 +8,55 @@
 			display flex
 			flex-direction row
 			align-items center
-			.logo
-				width 100px
-			.menu
+			> .logo
+				width 90px
+				height 100%
+				background black
+			> .menu
 				flex 1
-			.user-logged
-				padding-right 15px
+				height 60px
+			> .user-logged
+				padding-right 10px
+				height 60px
+				display flex
+				align-items center
+				.user-infos
+					padding 10px
+					.name
+						font-weight 500
+						font-size 14px
+						line-height 14px
+						color primary
+					.role
+						font-size 11px
 		> .body
-			display flex
 			flex 1
-			align-items center
-			justify-content center
-			padding 20px
-			.content
+			display flex
+			flex-direction row
+			> .menu
+				width 90px
+				background primary
+				a
+					display block
+					color #FFF
+					text-align center
+					padding 14px 0
+					span
+						font-size 23px
+						line-height 23px
+					div
+						font-size 11px
+						font-weight 500
+				a:hover
+					background primary - 10
+			> .content-center
 				margin auto auto
 				> .header
 					margin-bottom 30px
 					h1
 						font-weight 500
 						font-size 30px
+			> .content
+				flex 1
+				display flex
+				flex-direction column

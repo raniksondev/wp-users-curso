@@ -4,12 +4,23 @@
 	radius(3px)
 	text-align center
 	font-weight 400
+	border 0
 .btn-md
 	padding 10px 15px
 	display inline-block
 	radius(3px)
 	text-align center
 	font-weight 400
+	border 0
+
+.btn-sm
+	padding 4px 10px
+	display inline-block
+	radius(4px)
+	text-align center
+	font-weight 500
+	border 0
+	font-size 12px
 
 .btn-full
 	display block
@@ -22,6 +33,16 @@
 .btn-p:hover
 .btn-p:active
 	background-color primary + 5
+	color #FFF
+
+// secundary
+
+.btn-ss
+	background-color secundary
+	color #FFF
+.btn-ss:hover
+.btn-ss:active
+	background-color secundary + 5
 	color #FFF
 
 // success
@@ -44,8 +65,35 @@
 	background-color danger + 5
 	color #FFF
 
+// danger
+
+.btn-dd
+	background-color destak
+	color #FFF
+.btn-dd:hover
+.btn-dd:active
+	background-color destak + 5
+	color #FFF
+
 // line
 
 .btn-line
 	border 1px border solid
 	
+
+.btn-add-circle
+	width 70px
+	height 70px
+	radius(50%)
+	border 1px border solid
+	transition2s()
+	span
+		font-size 40px
+		color success
+
+.btn-add-circle:hover
+	background success
+	border 1px success - 5 solid
+	span
+		color white
+		

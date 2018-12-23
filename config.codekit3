@@ -4,12 +4,12 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "D49F0915-BA61-4E15-915F-95D3BB02B931"
+		"uuidString": "2D9D6B3C-ECCB-4B9D-98F0-A2E26C32D133"
 		}
 	],
 "creatorBuild": "28841",
 "files": {
-	"/_styl/_pages/app.styl": {
+	"/__dev/_styl/_pages/app.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -17,12 +17,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/_pages/app.css",
+		"oAP": "/__dev/_styl/_pages/app.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/_pages/login.styl": {
+	"/__dev/_styl/_pages/login.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -30,12 +30,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/_pages/login.css",
+		"oAP": "/__dev/_styl/_pages/login.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/_pages/welcome.styl": {
+	"/__dev/_styl/_pages/users.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -43,12 +43,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/_pages/welcome.css",
+		"oAP": "/__dev/_styl/_pages/users.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/_ui/buttons.styl": {
+	"/__dev/_styl/_pages/welcome.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -56,12 +56,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/_ui/buttons.css",
+		"oAP": "/__dev/_styl/_pages/welcome.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/_ui/checkboxs.styl": {
+	"/__dev/_styl/_ui/buttons.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -69,12 +69,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/_ui/checkboxs.css",
+		"oAP": "/__dev/_styl/_ui/buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/_ui/config-block.styl": {
+	"/__dev/_styl/_ui/checkboxs.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -82,12 +82,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/_ui/config-block.css",
+		"oAP": "/__dev/_styl/_ui/checkboxs.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/_ui/form.styl": {
+	"/__dev/_styl/_ui/config-block.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -95,12 +95,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/_ui/form.css",
+		"oAP": "/__dev/_styl/_ui/config-block.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/_ui/steps.styl": {
+	"/__dev/_styl/_ui/dashbox.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -108,12 +108,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/_ui/steps.css",
+		"oAP": "/__dev/_styl/_ui/dashbox.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/_ui/table.styl": {
+	"/__dev/_styl/_ui/form.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -121,12 +121,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/_ui/table.css",
+		"oAP": "/__dev/_styl/_ui/form.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/_ui/user-menu.styl": {
+	"/__dev/_styl/_ui/modal-message.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -134,12 +134,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/_ui/user-menu.css",
+		"oAP": "/__dev/_styl/_ui/modal-message.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/base.styl": {
+	"/__dev/_styl/_ui/sidebar-float.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -147,12 +147,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/base.css",
+		"oAP": "/__dev/_styl/_ui/sidebar-float.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/colors.styl": {
+	"/__dev/_styl/_ui/sidebar-user-manager.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -160,12 +160,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/colors.css",
+		"oAP": "/__dev/_styl/_ui/sidebar-user-manager.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/fonts.styl": {
+	"/__dev/_styl/_ui/steps.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -173,12 +173,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/fonts.css",
+		"oAP": "/__dev/_styl/_ui/steps.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/functions.styl": {
+	"/__dev/_styl/_ui/table.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -186,12 +186,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/functions.css",
+		"oAP": "/__dev/_styl/_ui/table.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/helpers.styl": {
+	"/__dev/_styl/_ui/tabs-menu.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -199,12 +199,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/helpers.css",
+		"oAP": "/__dev/_styl/_ui/tabs-menu.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/reboot.styl": {
+	"/__dev/_styl/_ui/user-menu.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -212,12 +212,12 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/reboot.css",
+		"oAP": "/__dev/_styl/_ui/user-menu.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/reset.styl": {
+	"/__dev/_styl/colors.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -225,12 +225,77 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/_styl/reset.css",
+		"oAP": "/__dev/_styl/colors.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"/_styl/style.styl": {
+	"/__dev/_styl/fonts.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/__dev/_styl/fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/__dev/_styl/functions.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/__dev/_styl/functions.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/__dev/_styl/helpers.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/__dev/_styl/helpers.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/__dev/_styl/reboot.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/__dev/_styl/reboot.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/__dev/_styl/reset.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/__dev/_styl/reset.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/__dev/_styl/style.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -238,10 +303,273 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/Applications/MAMP/htdocs/wp-users/wp-content/themes/wp-users-theme/style.css",
-		"oF": 6,
+		"oAP": "/style.css",
+		"oF": 2,
 		"oS": 0,
 		"rrU": 0
+		},
+	"/_assets/_fonts/Blacksword.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_assets/_fonts/Blacksword.eot",
+		"oF": 0
+		},
+	"/_assets/_fonts/Blacksword.otf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_assets/_fonts/Blacksword.otf",
+		"oF": 0
+		},
+	"/_assets/_fonts/Blacksword.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/_fonts/Blacksword.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_assets/_fonts/Blacksword.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_assets/_fonts/Blacksword.ttf",
+		"oF": 0
+		},
+	"/_assets/_fonts/Blacksword.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_assets/_fonts/Blacksword.woff",
+		"oF": 0
+		},
+	"/_assets/_fonts/Blacksword.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_assets/_fonts/Blacksword.woff2",
+		"oF": 0
+		},
+	"/_assets/_imgs/no-avatar.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/_imgs/no-avatar.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_assets/_imgs/process.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/_imgs/process.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/_assets/_js/app-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/_js/app-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_assets/_js/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "/_assets/_js/app-min.js",
+		"oF": 3,
+		"sC": 0,
+		"tS": 0
+		},
+	"/_assets/_js/jquery.easing.1.3.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/_assets/_js/jquery.easing.1.3-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/_fns/helpers.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_fns/helpers.php",
+		"oF": 0
+		},
+	"/_fns/wp-clear.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_fns/wp-clear.php",
+		"oF": 0
+		},
+	"/_inc/app-header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_inc/app-header.php",
+		"oF": 0
+		},
+	"/_inc/app-menu.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_inc/app-menu.php",
+		"oF": 0
+		},
+	"/_inc/login-col-text.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_inc/login-col-text.php",
+		"oF": 0
+		},
+	"/_inc/users-manager-sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_inc/users-manager-sidebar.php",
+		"oF": 0
+		},
+	"/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/footer.php",
+		"oF": 0
+		},
+	"/functions.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/functions.php",
+		"oF": 0
+		},
+	"/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/header.php",
+		"oF": 0
+		},
+	"/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/index.php",
+		"oF": 0
+		},
+	"/page-acessar-minha-conta.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-acessar-minha-conta.php",
+		"oF": 0
+		},
+	"/page-bem-vindo.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-bem-vindo.php",
+		"oF": 0
+		},
+	"/page-criar-conta.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-criar-conta.php",
+		"oF": 0
+		},
+	"/page-dados-pessoais.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-dados-pessoais.php",
+		"oF": 0
+		},
+	"/page-lembrar-senha.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-lembrar-senha.php",
+		"oF": 0
+		},
+	"/page-meus-dados.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-meus-dados.php",
+		"oF": 0
+		},
+	"/page-minha-foto.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-minha-foto.php",
+		"oF": 0
+		},
+	"/page-minhas-configuracoes.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-minhas-configuracoes.php",
+		"oF": 0
+		},
+	"/page-nova-senha.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-nova-senha.php",
+		"oF": 0
+		},
+	"/page-usuarios.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-usuarios.php",
+		"oF": 0
+		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style-min.css",
+		"oF": 0,
+		"oS": 3
 		}
 	},
 "hooks": [
@@ -249,10 +577,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 566838900.43393302,
-	"displayValue": "__dev",
+	"creationDate": 567171168.38460398,
+	"displayValue": "wp-users-theme",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-lotr",
+	"iconImageName": "meme-krieger",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

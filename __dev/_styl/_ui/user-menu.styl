@@ -5,29 +5,39 @@
 		padding 5px
 		background transparent
 		radiusmaster(5px, 5px, 0px, 0px)
+		transition2s()
 		img
 			height 40px
 	.menu
 		position absolute
 		top 50px
 		right 0
-		padding 10px 20px
+		padding 15px 10px
 		background primary
 		border-radius
 		radiusmaster(5px, 0px, 5px, 5px)
-		display none
+		opacity 0
+		visibility hidden
+		transition2s()
 		ul
 			list-style none
 			padding 0
 			margin 0
 			li 
+				margin-bottom 5px
 				a
 					color #FFF
-					padding 5px 0
+					padding 2px 8px
 					display inline-block
+					radius(3px)
+					font-size 13px
+					font-weight 400
+				a:hover
+					background primary - 20
 
 .user-menu:hover
 	button
 		background primary
 	.menu
-		display block
+		opacity 1
+		visibility visible
