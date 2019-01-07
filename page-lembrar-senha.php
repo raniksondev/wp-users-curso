@@ -2,7 +2,14 @@
 <section class="login-page">
 	<?php get_template_part('_inc/login-col-text'); ?>
 	<section class="col-form">
-		<section class="form-box rounded-md">
+		<section class="message-box d-none">
+			<div class="ico success">
+				<span class="icon ion-ios-mail-open"></span>
+			</div>
+			<div class="text">Verifique o seu e-mail para alterar sua senha.</div>
+			<a href="<?php wp_go('acessar-minha-conta') ?>" class="btn-md btn-dd">Voltar</a>
+		</section>
+		<section class="form-box">
 			<div class="header">
 				<h2>Lembrar Senha</h2>
 				<p>Informe o seu e-mail cadastrado.</p>

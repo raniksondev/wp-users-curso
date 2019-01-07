@@ -476,6 +476,9 @@ button {
   top: 0;
   left: 0;
 }
+.d-none {
+  display: none;
+}
 @font-face {
   font-family: 'Blacksword';
   src: url("_assets/_fonts/Blacksword.eot");
@@ -611,6 +614,7 @@ button {
 }
 .btn-full {
   display: block;
+  width: 100%;
 }
 .btn-p {
   background-color: #8d70ff;
@@ -881,6 +885,18 @@ label .combobox:after {
 }
 .avatar-upload label input {
   display: none;
+}
+.message-box {
+  text-align: center;
+}
+.message-box .ico span {
+  font-size: 100px;
+}
+.message-box .ico.success span {
+  color: #1fbd62;
+}
+.message-box .text {
+  margin-bottom: 20px;
 }
 .modal {
   background: #fff;

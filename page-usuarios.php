@@ -38,7 +38,7 @@
 						</div>
 						<div class="footer text-right">
 							<button type="button" class="btn-sm btn-ss" data-action="toggle-modal" data-target="#send-message" data-id="0001">
-								<span class="icon ion-ios-send"></span>
+								<span class="icon ion-ios-send"></span> Mensagem
 							</button>
 						</div>
 					</div>
@@ -46,7 +46,7 @@
 					<div class="user-item">
 						<span class="status unblock"></span>
 						<button type="button" class="btn-manager-user" data-action="toggle-sidebar" data-target="#manager-user" data-width="350" data-side="right">
-							<span class="icon ion-md-more"></span>
+							<span class="icon ion-md-more"></span> 
 						</button>
 						<div class="body">
 							<div class="avatar">
@@ -57,7 +57,7 @@
 						</div>
 						<div class="footer text-right">
 							<button type="button" class="btn-sm btn-ss" data-action="toggle-modal" data-target="#send-message" data-id="0002">
-								<span class="icon ion-ios-send"></span>
+								<span class="icon ion-ios-send"></span> Mensagem
 							</button>
 						</div>
 					</div>
@@ -65,7 +65,7 @@
 					<div class="user-item">
 						<span class="status unblock"></span>
 						<button type="button" class="btn-manager-user" data-action="toggle-sidebar" data-target="#manager-user" data-overlay="true" data-width="350" data-side="right">
-							<span class="icon ion-md-more"></span>
+							<span class="icon ion-md-more"></span> 
 						</button>
 						<div class="body">
 							<div class="avatar">
@@ -76,7 +76,7 @@
 						</div>
 						<div class="footer text-right">
 							<button type="button" class="btn-sm btn-ss" data-action="toggle-modal" data-target="#send-message" data-id="0003">
-								<span class="icon ion-ios-send"></span>
+								<span class="icon ion-ios-send"></span> Mensagem
 							</button>
 						</div>
 					</div>

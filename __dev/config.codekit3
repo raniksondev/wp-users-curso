@@ -7,7 +7,7 @@
 		"uuidString": "D49F0915-BA61-4E15-915F-95D3BB02B931"
 		}
 	],
-"creatorBuild": "28841",
+"creatorBuild": "28901",
 "files": {
 	"/_styl/_pages/app.styl": {
 		"aP": 0,
@@ -35,6 +35,19 @@
 		"oS": 0,
 		"rrU": 0
 		},
+	"/_styl/_pages/users.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_pages/users.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
 	"/_styl/_pages/welcome.styl": {
 		"aP": 0,
 		"bl": 0,
@@ -44,6 +57,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/_styl/_pages/welcome.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/_styl/_ui/alerts-list.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_ui/alerts-list.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
@@ -87,6 +113,32 @@
 		"oS": 0,
 		"rrU": 0
 		},
+	"/_styl/_ui/control-button.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_ui/control-button.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/_styl/_ui/dashbox.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_ui/dashbox.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
 	"/_styl/_ui/form.styl": {
 		"aP": 0,
 		"bl": 0,
@@ -96,6 +148,58 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/_styl/_ui/form.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/_styl/_ui/message-box.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_ui/message-box.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/_styl/_ui/modal.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_ui/modal.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/_styl/_ui/sidebar-float.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_ui/sidebar-float.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/_styl/_ui/sidebar-user-manager.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_ui/sidebar-user-manager.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
@@ -126,6 +230,19 @@
 		"oS": 0,
 		"rrU": 0
 		},
+	"/_styl/_ui/tabs-menu.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/_styl/_ui/tabs-menu.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
 	"/_styl/_ui/user-menu.styl": {
 		"aP": 0,
 		"bl": 0,
@@ -135,19 +252,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/_styl/_ui/user-menu.css",
-		"oF": 0,
-		"oS": 0,
-		"rrU": 0
-		},
-	"/_styl/base.styl": {
-		"aP": 0,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 0,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/_styl/base.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
