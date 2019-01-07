@@ -61,6 +61,19 @@
 		"oS": 0,
 		"rrU": 0
 		},
+	"/__dev/_styl/_ui/alerts-list.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/__dev/_styl/_ui/alerts-list.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
 	"/__dev/_styl/_ui/buttons.styl": {
 		"aP": 0,
 		"bl": 0,
@@ -100,6 +113,19 @@
 		"oS": 0,
 		"rrU": 0
 		},
+	"/__dev/_styl/_ui/control-button.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/__dev/_styl/_ui/control-button.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
 	"/__dev/_styl/_ui/dashbox.styl": {
 		"aP": 0,
 		"bl": 0,
@@ -126,7 +152,7 @@
 		"oS": 0,
 		"rrU": 0
 		},
-	"/__dev/_styl/_ui/modal-message.styl": {
+	"/__dev/_styl/_ui/modal.styl": {
 		"aP": 0,
 		"bl": 0,
 		"dS": 0,
@@ -134,7 +160,7 @@
 		"iC": 0,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/__dev/_styl/_ui/modal-message.css",
+		"oAP": "/__dev/_styl/_ui/modal.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
@@ -417,6 +443,34 @@
 		"oAP": "/_fns/wp-clear.php",
 		"oF": 0
 		},
+	"/_inc/_users/modal-add-user.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_inc/_users/modal-add-user.php",
+		"oF": 0
+		},
+	"/_inc/_users/modal-send-message.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_inc/_users/modal-send-message.php",
+		"oF": 0
+		},
+	"/_inc/_users/sidebar-alerts.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_inc/_users/sidebar-alerts.php",
+		"oF": 0
+		},
+	"/_inc/_users/sidebar-manager-user.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/_inc/_users/sidebar-manager-user.php",
+		"oF": 0
+		},
 	"/_inc/app-header.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -436,13 +490,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/_inc/login-col-text.php",
-		"oF": 0
-		},
-	"/_inc/users-manager-sidebar.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/_inc/users-manager-sidebar.php",
 		"oF": 0
 		},
 	"/footer.php": {

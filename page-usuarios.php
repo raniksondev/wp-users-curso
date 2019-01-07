@@ -4,14 +4,23 @@
 	<!-- HEADER -->
 
 	<?php get_template_part('_inc/app-header'); ?>
-	
+
+
 	<section class="body">
 
 		<!-- MENU -->
 		
 		<?php get_template_part('_inc/app-menu'); ?>
 
+		
+
 		<section class="content">
+			<section class="section-bar">
+				<div class="ico">
+					<span class="icon ion-ios-man"></span>
+				</div>
+				<div class="title">Usuários</div>
+			</section>
 			<section class="page-users">
 				<section class="users-items">
 					<!-- item -->
@@ -27,10 +36,9 @@
 							<div class="name">Eduardo Costa</div>
 							<div class="role">Programador</div>
 						</div>
-						<div class="footer">
-							<button type="button" class="btn-sm btn-p" data-action="toggle-modal" data-target="#send-message" data-id="0001">
+						<div class="footer text-right">
+							<button type="button" class="btn-sm btn-ss" data-action="toggle-modal" data-target="#send-message" data-id="0001">
 								<span class="icon ion-ios-send"></span>
-								Mensagem
 							</button>
 						</div>
 					</div>
@@ -47,10 +55,9 @@
 							<div class="name">Eduardo Costa</div>
 							<div class="role">Programador</div>
 						</div>
-						<div class="footer">
-							<button type="button" class="btn-sm btn-p" data-action="toggle-modal" data-target="#send-message" data-id="0002">
+						<div class="footer text-right">
+							<button type="button" class="btn-sm btn-ss" data-action="toggle-modal" data-target="#send-message" data-id="0002">
 								<span class="icon ion-ios-send"></span>
-								Mensagem
 							</button>
 						</div>
 					</div>
@@ -67,10 +74,9 @@
 							<div class="name">Eduardo Costa</div>
 							<div class="role">Programador</div>
 						</div>
-						<div class="footer">
-							<button type="button" class="btn-sm btn-p" data-action="toggle-modal" data-target="#send-message" data-id="0003">
+						<div class="footer text-right">
+							<button type="button" class="btn-sm btn-ss" data-action="toggle-modal" data-target="#send-message" data-id="0003">
 								<span class="icon ion-ios-send"></span>
-								Mensagem
 							</button>
 						</div>
 					</div>
@@ -79,28 +85,16 @@
 			</section>
 		</section>
 	</section>
-</section>
 
-<?php get_template_part('_inc/users-manager-sidebar'); ?>
-
-<section class="modal-message" id="send-message">
-	<div class="ico">
-		<span class="icon ion-ios-mail-open"></span>
-	</div>
-	<section class="body">
-		<label>
-			<span>Assunto</span>
-			<input type="text">
-		</label>
-		<label>
-			<span>Mensagem</span>
-			<textarea rows="3"></textarea>
-		</label>
-	</section>
-	<section class="footer text-center">
-		<button type="button" class="btn-md btn-s" id="btn-send-message">Enviar Mensagem</button>
+	<section class="control-button">
+		<button type="button" data-action="toggle-modal" data-target="#add-user">
+			<span class="icon ion-ios-add"></span>
+		</button>
 	</section>
 </section>
 
+<?php get_template_part('_inc/_users/sidebar-manager-user'); ?>
+<?php get_template_part('_inc/_users/modal-send-message'); ?>
+<?php get_template_part('_inc/_users/modal-add-user'); ?>
 
 <?php get_footer(); ?>

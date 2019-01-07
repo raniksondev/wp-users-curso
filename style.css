@@ -455,6 +455,9 @@ button {
 .text-s {
   font-weight: 500;
 }
+.text-right {
+  text-align: right;
+}
 .line-b {
   border-bottom: 1px #e6e9f6 solid;
 }
@@ -509,6 +512,71 @@ button {
 }
 .sz-50 {
   font-size: 50px;
+}
+.alerts-list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.alerts-list ul li:hover {
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+.alerts-list ul li {
+  border-bottom: 1px #e6e9f6 solid;
+  padding: 12px 10px 12px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  -o-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+.alerts-list ul li a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 85%;
+  height: 100%;
+  background: transparent;
+  z-index: 10;
+}
+.alerts-list ul li .avatar {
+  padding-right: 10px;
+}
+.alerts-list ul li .avatar img {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.alerts-list ul li .infos {
+  flex: 1;
+}
+.alerts-list ul li .infos .date {
+  font-size: 11px;
+  font-weight: 500;
+  -moz-opacity: 0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+}
+.alerts-list ul li .infos .text {
+  font-size: 13px;
+  font-weight: 400;
+}
+.alerts-list ul li .control button {
+  background: transparent;
+  border: 0;
+  width: 30px;
+  height: 30px;
+}
+.alerts-list ul li .control button span {
+  font-size: 16px;
+  color: #1fbd62;
 }
 .btn-lg {
   padding: 15px 15px;
@@ -695,6 +763,32 @@ button {
   font-weight: 400;
   margin-bottom: 0;
 }
+.control-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 50;
+}
+.control-button button {
+  width: 70px;
+  height: 70px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 0;
+  background: #1fbd62;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px #fff solid;
+  -webkit-box-shadow: 0px 0px 90px 0px rgba(161,165,188,0.4);
+  -moz-box-shadow: 0px 0px 90px 0px rgba(161,165,188,0.4);
+  box-shadow: 0px 0px 90px 0px rgba(161,165,188,0.4);
+}
+.control-button button span {
+  font-size: 30px;
+  color: #fff;
+}
 .dash-box {
   padding: 10px 20px;
   -webkit-border-radius: 4px;
@@ -788,7 +882,7 @@ label .combobox:after {
 .avatar-upload label input {
   display: none;
 }
-.modal-message {
+.modal {
   background: #fff;
   -webkit-box-shadow: 0px 0px 100px 0px rgba(161,165,188,0.3);
   -moz-box-shadow: 0px 0px 100px 0px rgba(161,165,188,0.3);
@@ -798,15 +892,29 @@ label .combobox:after {
   border-radius: 3px;
   position: fixed;
   z-index: 100;
-  top: -80%;
+  top: -200%;
   width: 500px;
   left: 50%;
   margin-left: -250px;
 }
-.modal-message .body {
+.modal .header {
+  padding: 0 30px 20px 30px;
+  border-bottom: 1px #e6e9f6 solid;
+  margin-bottom: 20px;
+}
+.modal .header h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0;
+}
+.modal .header p {
+  margin-bottom: 0;
+}
+.modal .body {
   padding: 0 30px 30px 30px;
 }
-.modal-message .ico {
+.modal .ico {
   width: 110px;
   height: 110px;
   -webkit-border-radius: 50%;
@@ -819,11 +927,11 @@ label .combobox:after {
   justify-content: center;
   border: 8px #fff solid;
 }
-.modal-message .ico span {
+.modal .ico span {
   font-size: 40px;
   color: #fff;
 }
-.modal-message .footer {
+.modal .footer {
   padding: 15px 30px;
   background: #fdfeff;
   border-top: 1px #e6e9f6 solid;
@@ -840,9 +948,6 @@ label .combobox:after {
   -moz-border-radius-bottomright: 3px;
   border-bottom-right-radius: 3px;
 }
-.modal-message.active {
-  top: 10%;
-}
 .sidebar-float {
   -webkit-box-shadow: 0px 0px 150px 0px rgba(161,165,188,0.3);
   -moz-box-shadow: 0px 0px 150px 0px rgba(161,165,188,0.3);
@@ -853,6 +958,48 @@ label .combobox:after {
   z-index: 100;
   background: #fff;
   display: none;
+}
+.sidebar-default {
+  flex-direction: column;
+}
+.sidebar-default > .header {
+  height: 60px;
+  background: #8d70ff;
+  border-bottom: 1px #e6e9f6 solid;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  color: #fff;
+  flex-direction: row;
+}
+.sidebar-default > .header .ico {
+  width: 40px;
+  height: 40px;
+  background: #ab8eff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.sidebar-default > .header .ico span {
+  font-size: 20px;
+}
+.sidebar-default > .header h3 {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.sidebar-default > .body {
+  flex: 1;
+  overflow: auto;
+}
+.sidebar-default > .footer {
+  border-top: 1px #e6e9f6 solid;
+  padding: 10px 15px;
+  background: #fdfeff;
 }
 .sidebar-user-manager {
   display: flex;
@@ -1084,21 +1231,63 @@ border-radius
   display: flex;
   flex-direction: row;
   align-items: center;
+  background: #fff;
+  position: relative;
 }
-.app > .header > .logo {
-  width: 90px;
-  height: 100%;
-  background: #404040;
-}
-.app > .header > .menu {
-  flex: 1;
-  height: 60px;
-}
-.app > .header > .user-logged {
-  padding-right: 10px;
+.app > .header > div,
+.app > .header > section {
+  border-bottom: 1px #e6e9f6 solid;
   height: 60px;
   display: flex;
   align-items: center;
+  padding: 0 10px;
+}
+.app > .header > .logo {
+  width: 90px;
+  background: #404040;
+  border: 0;
+}
+.app > .header > .menu {
+  flex: 1;
+}
+.app > .header > .title-page {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+.app > .header > .alerts button {
+  width: 40px;
+  height: 60px;
+  background: transparent;
+  border: 0;
+  position: relative;
+}
+.app > .header > .alerts button .number {
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #1fbd62;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 10px;
+  font-weight: 500;
+}
+.app > .header > .alerts button .icon {
+  font-size: 30px;
+  color: #8d70ff;
+}
+.app > .header > .user-logged {
+  display: flex;
+  align-items: center;
+  border-left: 1px #e6e9f6 solid;
 }
 .app > .header > .user-logged .user-infos {
   padding: 10px;
@@ -1152,6 +1341,37 @@ border-radius
   flex: 1;
   display: flex;
   flex-direction: column;
+}
+.app > .body > .content > .section-bar {
+  border-bottom: 1px #e6e9f6 solid;
+  height: 60px;
+  background: #fdfeff;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(161,165,188,0.2);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(161,165,188,0.2);
+  box-shadow: 0px 0px 5px 0px rgba(161,165,188,0.2);
+}
+.app > .body > .content > .section-bar .ico {
+  margin-right: 10px;
+  background: #8d70ff;
+  height: 35px;
+  width: 35px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app > .body > .content > .section-bar .ico span {
+  font-size: 20px;
+  color: #fff;
+}
+.app > .body > .content > .section-bar .title {
+  font-weight: 500;
+  font-size: 16px;
 }
 .login-page {
   height: 100%;

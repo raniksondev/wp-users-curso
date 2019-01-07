@@ -1,0 +1,48 @@
+.alerts-list
+	ul
+		padding 0
+		margin 0
+		list-style none
+		li:hover
+			opacity 0.8
+		li
+			border-bottom 1px border solid
+			padding 12px 10px 12px 15px
+			display flex
+			flex-direction row
+			align-items center
+			position relative
+			transition2s()
+			a
+				display block
+				position absolute
+				top 0
+				left 0
+				width 85%
+				height 100%
+				background transparent
+				z-index 10
+			.avatar
+				padding-right 10px
+				img
+					width 50px
+					height 50px
+					radius(50%)
+			.infos
+				flex 1
+				.date
+					font-size 11px
+					font-weight 500
+					opacity 0.7
+				.text
+					font-size 13px
+					font-weight 400
+			.control
+				button
+					background transparent
+					border 0
+					width 30px
+					height 30px
+					span
+						font-size 16px
+						color success
