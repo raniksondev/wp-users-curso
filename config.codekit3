@@ -7,7 +7,7 @@
 		"uuidString": "2D9D6B3C-ECCB-4B9D-98F0-A2E26C32D133"
 		}
 	],
-"creatorBuild": "28841",
+"creatorBuild": "28901",
 "files": {
 	"/__dev/_styl/_pages/app.styl": {
 		"aP": 0,
@@ -148,6 +148,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/__dev/_styl/_ui/form.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
+	"/__dev/_styl/_ui/message-box.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/__dev/_styl/_ui/message-box.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
@@ -492,6 +505,45 @@
 		"oAP": "/_inc/login-col-text.php",
 		"oF": 0
 		},
+	"/curso.mindnode/contents.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/curso.mindnode/contents.xml",
+		"oF": 0
+		},
+	"/curso.mindnode/QuickLook/Preview.jpg": {
+		"ft": 16384,
+		"iS": 13079,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/curso.mindnode/QuickLook/Preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/curso.mindnode/style.mindnodestyle/contents.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/curso.mindnode/style.mindnodestyle/contents.xml",
+		"oF": 0
+		},
+	"/curso.mindnode/style.mindnodestyle/metadata.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/curso.mindnode/style.mindnodestyle/metadata.plist",
+		"oF": 0
+		},
+	"/curso.mindnode/viewState.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/curso.mindnode/viewState.plist",
+		"oF": 0
+		},
 	"/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -607,6 +659,45 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/sistema.mindnode/contents.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/sistema.mindnode/contents.xml",
+		"oF": 0
+		},
+	"/sistema.mindnode/QuickLook/Preview.jpg": {
+		"ft": 16384,
+		"iS": 13625,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/sistema.mindnode/QuickLook/Preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/sistema.mindnode/style.mindnodestyle/contents.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/sistema.mindnode/style.mindnodestyle/contents.xml",
+		"oF": 0
+		},
+	"/sistema.mindnode/style.mindnodestyle/metadata.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/sistema.mindnode/style.mindnodestyle/metadata.plist",
+		"oF": 0
+		},
+	"/sistema.mindnode/viewState.plist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/sistema.mindnode/viewState.plist",
+		"oF": 0
 		},
 	"/style.css": {
 		"aP": 1,

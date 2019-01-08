@@ -59,14 +59,13 @@ jQuery(document).ready(function(){
 	})
 
 	$('body').on('click', '#btn-send-message', function(){
-		let id = $(this).closest('.modal-message').data('id');
+		let id = $(this).closest('.modal').data('id');
 		console.log(id);
 	})
 
 	/*******************************************
 	* MODAL
 	*******************************************/
-
 
 	function toggleSidebar(target, width, side){
 		
@@ -100,9 +99,6 @@ jQuery(document).ready(function(){
 			$('body').append(overlayEl);
 			$('.overlay').fadeTo( 100 , 1);
 		}
-
-
-
 
 	}
 
