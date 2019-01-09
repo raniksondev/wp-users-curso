@@ -256,6 +256,19 @@
 		"oS": 0,
 		"rrU": 0
 		},
+	"/__dev/_styl/_ui/validation-msg.styl": {
+		"aP": 0,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 0,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/__dev/_styl/_ui/validation-msg.css",
+		"oF": 0,
+		"oS": 0,
+		"rrU": 0
+		},
 	"/__dev/_styl/colors.styl": {
 		"aP": 0,
 		"bl": 0,
@@ -391,6 +404,16 @@
 		"oA": 0,
 		"oAP": "/_assets/_fonts/Blacksword.woff2",
 		"oF": 0
+		},
+	"/_assets/_imgs/check.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/_assets/_imgs/check.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/_assets/_imgs/no-avatar.svg": {
 		"ft": 2097152,
@@ -572,18 +595,18 @@
 		"oAP": "/index.php",
 		"oF": 0
 		},
-	"/page-acessar-minha-conta.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/page-acessar-minha-conta.php",
-		"oF": 0
-		},
 	"/page-bem-vindo.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/page-bem-vindo.php",
+		"oF": 0
+		},
+	"/page-configuracoes.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-configuracoes.php",
 		"oF": 0
 		},
 	"/page-criar-conta.php": {
@@ -598,6 +621,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/page-dados-pessoais.php",
+		"oF": 0
+		},
+	"/page-entrar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/page-entrar.php",
 		"oF": 0
 		},
 	"/page-lembrar-senha.php": {

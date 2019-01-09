@@ -21,6 +21,9 @@
 				width 90px
 				background black
 				border 0
+				display flex
+				align-items center
+				justify-content center
 			> .menu
 				flex 1
 			> .title-page
@@ -72,6 +75,7 @@
 			> .menu
 				width 90px
 				background primary
+				flex-shrink 0
 				a
 					display block
 					color #FFF
@@ -82,9 +86,25 @@
 						line-height 23px
 					div
 						font-size 11px
-						font-weight 500
+						font-weight 300
 				a:hover
 					background primary - 10
+			> .submenu
+				width 180px
+				border-right 1px border solid
+				padding 20px
+				flex-shrink 0
+				ul
+					list-style none
+					padding 0
+					margin 0
+					li
+						a
+							display block
+							color black
+							padding 5px 0
+							font-size 13px
+							font-weight 400
 			> .content-center
 				margin auto auto
 				> .header

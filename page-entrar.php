@@ -6,10 +6,13 @@
 	<section class="col-form">
 		<section class="form-box rounded-md">
 			<div class="header">
-				<h2 >Bem vindo.</h2>
+				<h2>Bem vindo.</h2>
 				<p>Acesse ou <a href="<?php wp_go('criar-conta'); ?>">crie uma conta</a>.</p>
 			</div>
 			<form>
+				<div class="validation-msgs danger d-none">
+					<span>Usuário ou senha inválido.</span>
+				</div>
 				<label>
 					<span>Nome de usuário:</span>
 					<input type="text">

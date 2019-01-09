@@ -12,8 +12,6 @@
 		
 		<?php get_template_part('_inc/app-menu'); ?>
 
-		
-
 		<section class="content">
 			<section class="section-bar">
 				<div class="ico">
@@ -37,7 +35,7 @@
 							<div class="role">Programador</div>
 						</div>
 						<div class="footer text-right">
-							<button type="button" class="btn-sm btn-ss" data-action="toggle-modal" data-target="#send-message" data-id="0001">
+							<button type="button" class="btn-sm btn-full btn-ss" data-action="toggle-modal" data-target="#send-message" data-id="0001">
 								<span class="icon ion-ios-send"></span> Mensagem
 							</button>
 						</div>
@@ -56,7 +54,7 @@
 							<div class="role">Programador</div>
 						</div>
 						<div class="footer text-right">
-							<button type="button" class="btn-sm btn-ss" data-action="toggle-modal" data-target="#send-message" data-id="0002">
+							<button type="button" class="btn-sm btn-full btn-ss" data-action="toggle-modal" data-target="#send-message" data-id="0002">
 								<span class="icon ion-ios-send"></span> Mensagem
 							</button>
 						</div>
@@ -75,7 +73,7 @@
 							<div class="role">Programador</div>
 						</div>
 						<div class="footer text-right">
-							<button type="button" class="btn-sm btn-ss" data-action="toggle-modal" data-target="#send-message" data-id="0003">
+							<button type="button" class="btn-sm btn-full btn-ss" data-action="toggle-modal" data-target="#send-message" data-id="0003">
 								<span class="icon ion-ios-send"></span> Mensagem
 							</button>
 						</div>

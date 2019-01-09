@@ -20,7 +20,7 @@
 					<a href="#" class="btn-lg btn-full btn-s">Confirmar</a>
 				</div>
 				<div class="mt-30">
-					<a href="<?php wp_go('acessar-minha-conta'); ?>">&lsaquo; Acessar minha conta</a>
+					<a href="<?php wp_go('entrar'); ?>">&lsaquo; voltar</a>
 				</div>
 			</form>
 		</section>

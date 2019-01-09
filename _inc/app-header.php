@@ -1,5 +1,7 @@
 <section class="header">
-	<section class="logo"></section>
+	<section class="logo">
+		<?php wp_theme_img('check.svg', 35) ?>
+	</section>
 	<section class="menu"></section>
 	<section class="alerts">
 		<button type="button" data-action="toggle-sidebar" data-target="#alerts" data-width="350" data-side="right">
@@ -26,7 +28,7 @@
 						<a href="<?php wp_go('minhas-configuracoes') ?>">Configurações</a>
 					</li>
 					<li>
-						<a href="<?php wp_go('acessar-minha-conta') ?>">Sair</a>
+						<a href="<?php wp_go('entrar') ?>">Sair</a>
 					</li>
 				</ul>
 			</section>

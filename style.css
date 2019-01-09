@@ -288,7 +288,7 @@ template {
   display: none !important;
 }
 .color-primary {
-  color: #8d70ff;
+  color: #7560ca;
 }
 .color-success {
   color: #008b30;
@@ -311,10 +311,10 @@ a:hover {
   text-decoration: none;
 }
 a {
-  color: #8d70ff;
+  color: #7560ca;
 }
 a:hover {
-  color: #a184ff;
+  color: #8974de;
 }
 button {
   cursor: pointer;
@@ -617,12 +617,12 @@ button {
   width: 100%;
 }
 .btn-p {
-  background-color: #8d70ff;
+  background-color: #7560ca;
   color: #fff;
 }
 .btn-p:hover,
 .btn-p:active {
-  background-color: #9275ff;
+  background-color: #7a65cf;
   color: #fff;
 }
 .btn-ss {
@@ -653,16 +653,25 @@ button {
   color: #fff;
 }
 .btn-dd {
-  background-color: #8d70ff;
+  background-color: #7560ca;
   color: #fff;
 }
 .btn-dd:hover,
 .btn-dd:active {
-  background-color: #9275ff;
+  background-color: #7a65cf;
+  color: #fff;
+}
+.btn-dd2 {
+  background-color: #2bcbba;
+  color: #fff;
+}
+.btn-dd2:hover,
+.btn-dd2:active {
+  background-color: #30d0bf;
   color: #fff;
 }
 .btn-line {
-  border: 1px #e6e9f6 solid;
+  border: 2px #e6e9f6 solid;
 }
 .btn-add-circle {
   width: 70px;
@@ -707,8 +716,8 @@ button {
   color: #bec1ce;
 }
 .check-tag input:checked + label {
-  background: #8d70ff;
-  border: 2px #886bfa solid;
+  background: #7560ca;
+  border: 2px #705bc5 solid;
   color: #fff;
 }
 .check-switch {
@@ -762,7 +771,7 @@ button {
   margin-bottom: 30px;
 }
 .config-block h3 {
-  color: #8d70ff;
+  color: #7560ca;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 0;
@@ -804,7 +813,7 @@ button {
   font-size: 30px;
   font-weight: 400;
   line-height: 30px;
-  color: #8d70ff;
+  color: #7560ca;
 }
 label {
   display: block;
@@ -898,6 +907,12 @@ label .combobox:after {
 .message-box .text {
   margin-bottom: 20px;
 }
+.message-box .text h1,
+.message-box .text h2,
+.message-box .text h3,
+.message-box .text h4 {
+  font-weight: 500;
+}
 .modal {
   background: #fff;
   -webkit-box-shadow: 0px 0px 100px 0px rgba(161,165,188,0.3);
@@ -937,7 +952,7 @@ label .combobox:after {
   -moz-border-radius: 50%;
   border-radius: 50%;
   margin: -50px auto 0 auto;
-  background: #8d70ff;
+  background: #7560ca;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -980,7 +995,7 @@ label .combobox:after {
 }
 .sidebar-default > .header {
   height: 60px;
-  background: #8d70ff;
+  background: #7560ca;
   border-bottom: 1px #e6e9f6 solid;
   display: flex;
   align-items: center;
@@ -991,7 +1006,7 @@ label .combobox:after {
 .sidebar-default > .header .ico {
   width: 40px;
   height: 40px;
-  background: #ab8eff;
+  background: #937ee8;
   color: #fff;
   display: flex;
   align-items: center;
@@ -1050,7 +1065,7 @@ label .combobox:after {
 .sidebar-user-manager > .header .role span {
   display: inline-block;
   padding: 2px 15px;
-  background: #8d70ff;
+  background: #7560ca;
   color: #fff;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -1116,7 +1131,7 @@ label .combobox:after {
   height: 45px;
   border: 1px #e6e9f6 solid;
   font-size: 14px;
-  color: #795ceb;
+  color: #614cb6;
   margin-left: -1px;
   background: #f8f9fd;
   color: #a1a5bc;
@@ -1151,7 +1166,7 @@ label .combobox:after {
 }
 .tabs-menu a.active {
   background: #fff;
-  color: #795ceb;
+  color: #614cb6;
 }
 .user-menu {
   position: relative;
@@ -1184,7 +1199,7 @@ label .combobox:after {
   top: 50px;
   right: 0;
   padding: 15px 10px;
-  background: #8d70ff;
+  background: #7560ca;
 border-radius
   -webkit-border-top-left-radius: 5px;
   -moz-border-radius-topleft: 5px;
@@ -1225,16 +1240,32 @@ border-radius
   font-weight: 400;
 }
 .user-menu .menu ul li a:hover {
-  background: #795ceb;
+  background: #614cb6;
 }
 .user-menu:hover button {
-  background: #8d70ff;
+  background: #7560ca;
 }
 .user-menu:hover .menu {
   -moz-opacity: 1;
   -khtml-opacity: 1;
   opacity: 1;
   visibility: visible;
+}
+.validation-msgs {
+  margin-bottom: 15px;
+}
+.validation-msgs span {
+  display: block;
+  font-size: 12px;
+  padding: 6px 10px;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.validation-msgs.danger span {
+  background: #ff6b6b;
+  color: #fff;
 }
 .app {
   display: flex;
@@ -1262,6 +1293,9 @@ border-radius
   width: 90px;
   background: #404040;
   border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .app > .header > .menu {
   flex: 1;
@@ -1298,7 +1332,7 @@ border-radius
 }
 .app > .header > .alerts button .icon {
   font-size: 30px;
-  color: #8d70ff;
+  color: #7560ca;
 }
 .app > .header > .user-logged {
   display: flex;
@@ -1312,7 +1346,7 @@ border-radius
   font-weight: 500;
   font-size: 14px;
   line-height: 14px;
-  color: #8d70ff;
+  color: #7560ca;
 }
 .app > .header > .user-logged .user-infos .role {
   font-size: 11px;
@@ -1324,7 +1358,8 @@ border-radius
 }
 .app > .body > .menu {
   width: 90px;
-  background: #8d70ff;
+  background: #7560ca;
+  flex-shrink: 0;
 }
 .app > .body > .menu a {
   display: block;
@@ -1338,10 +1373,28 @@ border-radius
 }
 .app > .body > .menu a div {
   font-size: 11px;
-  font-weight: 500;
+  font-weight: 300;
 }
 .app > .body > .menu a:hover {
-  background: #8366f5;
+  background: #6b56c0;
+}
+.app > .body > .submenu {
+  width: 180px;
+  border-right: 1px #e6e9f6 solid;
+  padding: 20px;
+  flex-shrink: 0;
+}
+.app > .body > .submenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.app > .body > .submenu ul li a {
+  display: block;
+  color: #404040;
+  padding: 5px 0;
+  font-size: 13px;
+  font-weight: 400;
 }
 .app > .body > .content-center {
   margin: auto auto;
@@ -1371,7 +1424,7 @@ border-radius
 }
 .app > .body > .content > .section-bar .ico {
   margin-right: 10px;
-  background: #8d70ff;
+  background: #7560ca;
   height: 35px;
   width: 35px;
   -webkit-border-radius: 3px;
@@ -1400,7 +1453,7 @@ border-radius
   flex: 1;
   align-items: center;
   justify-content: center;
-  background: #8d70ff;
+  background: #7560ca;
   flex-direction: column;
   color: #fff;
   padding: 20px;
@@ -1412,6 +1465,15 @@ border-radius
 }
 .login-page .col-text p {
   font-weight: 500;
+}
+.login-page .col-text .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.login-page .col-text .logo p {
+  margin-bottom: 0;
 }
 .login-page .col-form {
   display: flex;
@@ -1508,7 +1570,7 @@ border-radius
 }
 .page-users .users-items .user-item .role {
   font-size: 12px;
-  color: #8d70ff;
+  color: #7560ca;
 }
 .page-users .users-items .user-item .body {
   padding: 20px 30px;

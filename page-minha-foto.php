@@ -26,7 +26,7 @@
 					<a href="<?php wp_go('bem-vindo'); ?>" class="btn-lg btn-full btn-s">Concluir</a>
 				</div>
 				<div class="mt-30">
-					<a href="<?php wp_go('acessar-minha-conta'); ?>">&lsaquo; voltar</a>
+					<a href="<?php wp_go('entrar'); ?>">&lsaquo; voltar</a>
 				</div>
 			</form>
 		</section>

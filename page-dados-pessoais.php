@@ -36,7 +36,7 @@
 					<a href="<?php wp_go('minha-foto'); ?>" class="btn-lg btn-full btn-s">Avançar &rsaquo;</a>
 				</div>
 				<div class="mt-30">
-					<a href="<?php wp_go('acessar-minha-conta'); ?>">&lsaquo; voltar</a>
+					<a href="<?php wp_go('entrar'); ?>">&lsaquo; voltar</a>
 				</div>
 			</form>
 		</section>
