@@ -1,0 +1,43 @@
+.sidebar-float
+	shadow(0px 0px 150px 0px rgba(161,165,188,0.3))
+	position fixed
+	top 0
+	height 100%
+	z-index 100
+	background #FFF
+	display none
+
+
+.sidebar-default
+	flex-direction column
+	> .header
+		height 60px
+		background primary
+		border-bottom 1px border solid
+		display flex
+		align-items center
+		padding 0 15px
+		color #FFF
+		flex-direction row
+		.ico
+			width 40px
+			height 40px
+			background primary + 30
+			color #FFF
+			display flex
+			align-items center
+			justify-content center
+			radius(3px)
+			margin-right 10px
+			span
+				font-size 20px
+		h3
+			font-weight 500
+			margin-bottom 0
+	> .body
+		flex 1
+		overflow auto
+	> .footer
+		border-top 1px border solid
+		padding 10px 15px
+		background bgl

@@ -1,0 +1,62 @@
+.tags
+	display flex
+
+	// check tags
+		
+.check-tag
+	input
+		display none
+	label
+		display flex
+		align-items center
+		height 35px
+		padding 0 20px
+		radius(23px)
+		border 2px border solid
+		cursor pointer
+		font-size 13px
+		margin-right 5px
+		color border - 40
+
+.check-tag
+	input:checked + label
+		background primary
+		border 2px primary - 5 solid
+		color white
+
+// check switch
+
+.check-switch
+	width 65px
+	height 36px
+	input
+		display none
+	label
+		position relative
+		height 36px
+		width 65px
+		radius(18px)
+		border 1px border solid
+		background bgd
+		transition2s()
+		cursor pointer
+	label:after
+		content ""
+		width 26px
+		height 26px
+		radius(16px)
+		background #FFF
+		position absolute
+		border 1px #FFF solid
+		top 4px
+		left 6px
+		shadow(0px 0px 10px 0px rgba(161,165,188,0.5))
+		transition2s()
+	
+
+.check-switch
+	input:checked + label
+		background success
+		border 1px success - 5 solid
+	input:checked + label:after
+		left 32px

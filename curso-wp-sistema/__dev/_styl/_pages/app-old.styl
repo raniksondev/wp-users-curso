@@ -1,0 +1,121 @@
+	.appold
+		display flex
+		width 100%
+		height 100%
+		flex-direction column
+		> .header
+			height 60px
+			display flex
+			flex-direction row
+			align-items center
+			background #FFF
+			position relative
+			> div
+			> section
+				border-bottom 1px border solid
+				height 60px
+				display flex
+				align-items center
+				padding 0 10px
+			> .logo
+				width 90px
+				background black
+				border 0
+			> .menu
+				flex 1
+			> .title-page
+				padding-left 20px
+				display flex
+				align-items center
+				font-weight 500
+			> .alerts
+				button
+					width 40px
+					height 60px
+					background transparent
+					border 0
+					position relative
+					.number
+						width 20px
+						height 20px
+						radius(50%)
+						background success
+						color #FFF
+						display flex
+						align-items center
+						justify-content center
+						position absolute
+						top 5px
+						right 0
+						font-size 10px
+						font-weight 500
+					.icon
+						font-size 30px
+						color primary
+			> .user-logged
+				display flex
+				align-items center
+				border-left 1px border solid
+				.user-infos
+					padding 10px
+					.name
+						font-weight 500
+						font-size 14px
+						line-height 14px
+						color primary
+					.role
+						font-size 11px
+		> .body
+			flex 1
+			display flex
+			flex-direction row
+			> .menu
+				width 90px
+				background primary
+				a
+					display block
+					color #FFF
+					text-align center
+					padding 14px 0
+					span
+						font-size 23px
+						line-height 23px
+					div
+						font-size 11px
+						font-weight 500
+				a:hover
+					background primary - 10
+			> .content-center
+				margin auto auto
+				> .header
+					margin-bottom 30px
+					h1
+						font-weight 500
+						font-size 30px
+			> .content
+				flex 1
+				display flex
+				flex-direction column
+				> .section-bar
+					border-bottom 1px border solid
+					height 60px
+					background bgl
+					padding 0 20px
+					display flex
+					align-items center
+					shadow(0px 0px 5px 0px rgba(161,165,188,0.2))
+					.ico
+						margin-right 10px
+						background primary
+						height 35px
+						width 35px
+						radius(3px)
+						display flex
+						align-items center
+						justify-content center
+						span
+							font-size 20px
+							color #FFF
+					.title
+						font-weight 500
+						font-size 16px
